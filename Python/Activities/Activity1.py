@@ -1,0 +1,5 @@
+username = input("Who are you?")
+currentage= int(input("How much old are you?"))
+remage = str(100-currentage)
+years=str(2021+100-currentage)
+print("Hi "+username+", you will turn 100 after " +remage +" years, and thats in "+years)
